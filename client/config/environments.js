@@ -10,7 +10,7 @@ module.exports = {
   // http://stackoverflow.com/questions/34133808/webpack-ots-parsing-error-loading-fonts/34133809#34133809
     //compiler_public_path : `http://${config.server_host}:${config.server_port}/`
   development : (config) => ({
-    compiler_public_path : `http://hera-client.ai.huntclub.co/`
+    compiler_public_path : `http://hera-client.ai.home.nomitch.com/`
   }),
 
   // ======================================================
