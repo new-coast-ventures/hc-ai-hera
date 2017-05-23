@@ -24,8 +24,8 @@ const config = {
   // Server Configuration
   // ----------------------------------
   //server_host : ip.address(), // use string 'localhost' to prevent exposure on local network
-  server_host : process.env.HC_HOST || 'localhost', // use string 'localhost' to prevent exposure on local network
-  server_port : process.env.PORT || 80,
+  server_host : process.env.HERA_SERVER_HOST || 'localhost', // use string 'localhost' to prevent exposure on local network
+  server_port : process.env.HERA_SERVER_PORT || 80,
 
   // ----------------------------------
   // Compiler Configuration
