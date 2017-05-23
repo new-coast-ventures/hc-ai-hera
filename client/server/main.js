@@ -8,15 +8,6 @@ const compress = require('compression')
 const app = express()
 const paths = config.utils_paths
 
-console.log(config.server_host)
-console.log(config.server_host)
-console.log(config.server_host)
-console.log(config.server_host)
-console.log(config.server_port)
-console.log(config.server_port)
-console.log(config.server_port)
-console.log(config.server_port)
-
 // This rewrites all routes requests to the root /index.html file
 // (ignoring file requests). If you want to implement universal
 // rendering, you'll want to remove this middleware.
